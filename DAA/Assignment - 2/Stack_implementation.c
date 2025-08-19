@@ -28,7 +28,6 @@ int main(){
 				display();
 				break;
 			case 4:
-				printf("Thankyou for using this program\n");
 				exit(0);
 			default:
 				printf("Invalid choice\n");
@@ -70,4 +69,5 @@ void display(){
 		printf("%d ",stack[i]);
 	}
 	printf("\n");
+
 }
