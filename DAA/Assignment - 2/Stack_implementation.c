@@ -41,6 +41,7 @@ bool is_full(){
 	} else {
 		return 0;
 	}
+}
 bool is_empty(){
 	if(top == -1){
 		return 1; 
@@ -71,4 +72,5 @@ void display(){
 	printf("\n");
 
 }
+
 
