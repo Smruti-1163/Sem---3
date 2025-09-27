@@ -38,15 +38,16 @@ public class Student_details {
         for(int i = 0; i < size; i++){
             arr[i].putdata();
         }
-        int index = 1;
+        int index = 0;
         double maxcgpa = arr[0].cgpa;
         for(int i = 1; i < size; i++){
             if(arr[i].cgpa > maxcgpa){
                 maxcgpa = arr[i].cgpa;
-                index++;
+                index = i;
             }
         }
-        System.out.println("Student " + index + " " + "has the maximum cgpa : " + maxcgpa);
+        System.out.println("Student " + (index + 1) + " " + "has the maximum cgpa : " + maxcgpa);
         sc.close();
     }
 }
+
