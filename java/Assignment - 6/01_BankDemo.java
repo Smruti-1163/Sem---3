@@ -27,4 +27,5 @@ public class BankDemo {
         b = new AXIS();
         System.out.println("SBI Rate of Interest : " + b.getRateOfInterest());
     }
+
 }
