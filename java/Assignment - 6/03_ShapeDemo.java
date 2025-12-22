@@ -19,7 +19,7 @@ class Area extends Shape{
 public class ShapeDemo {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        Shape s = new Area();
+        Area s = new Area();
         System.out.println("Enter a and b : ");
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -29,3 +29,4 @@ public class ShapeDemo {
         sc.close();
     }
 }
+
