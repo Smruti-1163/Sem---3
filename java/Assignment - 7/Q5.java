@@ -29,8 +29,7 @@ class Account {
             System.out.println("Invalid Withdrawal Amount");
         } 
         else if ((balance - amt) < 500) {
-            throw new MinimumBalanceException(
-                "Withdrawal denied. Minimum balance of 500 must be maintained.");
+            throw new MinimumBalanceException("Withdrawal denied. Minimum balance of 500 must be maintained.");
         } 
         else {
             balance -= amt;
@@ -68,3 +67,4 @@ public class Q5 {
         acc.display();
     }
 }
+
