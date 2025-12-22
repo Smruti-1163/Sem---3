@@ -30,7 +30,7 @@ public class CalculatorDemo {
         System.out.println("Enter two numbers : ");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        Calculator calc = new DemoCalculator();
+        DemoCalculator calc = new DemoCalculator();
         System.out.println("Addition : " + calc.add(a, b));
         System.out.println("Subtraction : " + calc.subtract(a, b));
         System.out.println("Multiplication : " + calc.mul(a, b));
@@ -39,3 +39,4 @@ public class CalculatorDemo {
         sc.close();
     }   
 }
+
