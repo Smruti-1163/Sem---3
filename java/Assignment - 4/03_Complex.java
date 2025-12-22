@@ -31,8 +31,9 @@ public class Complex {
         real2 = sc.nextInt();
         imag2 = sc.nextInt();
         ob2.initialise(real2,imag2);
-        ob1.show();
+        ob2.show();
         System.out.println("The addition of the two complex number is: ");
         ob3.add(ob1,ob2);
     }  
 }
+
